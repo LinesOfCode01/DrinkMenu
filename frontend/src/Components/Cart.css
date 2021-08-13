@@ -1,0 +1,8 @@
+.checkout_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.cart_container {
+  padding: 20px;
+}

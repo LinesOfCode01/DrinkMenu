@@ -1,0 +1,63 @@
+.maindiv {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {  
+  /* width: 100vw; */
+  height: 600px;
+}
+
+.Drinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 0%;
+  border-bottom: rgb(0, 0, 0) 2px solid;
+  width: 90%;
+}
+
+.Drinks:nth-child(6) {
+  border-bottom: none;
+}
+
+.drinkTxt {
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.DrinkImg {
+  height: 16rem;  
+  margin-right: 1rem;
+  border-radius: 10px;
+  float: left;
+}
+
+.juices {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+/* .ingredients {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin: 5rem;
+  text-align: left;
+} */
+
+.cyo_addToCart_Btn {
+  margin-top: 100px;
+}
+
+.mb-3 {
+  margin: 1rem;
+}
+
+h5 {
+  text-align: left; 
+  padding-top: 30px;
+}
+
